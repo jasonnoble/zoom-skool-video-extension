@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Zoom Skool Video",
+  "version": "1.0.0",
+  "description": "Click the toolbar icon to hide everything on the page and zoom the lesson video to fill the browser width. Click again to restore.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Zoom video (toggle)"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
