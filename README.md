@@ -1,5 +1,7 @@
 # Zoom Skool Video
 
+![zoom-skool-video-extension.gif](./zoom-skool-video-extension.gif)
+
 A minimal Chrome extension that turns any Skool lesson into a theater-mode view: the rest of the page is hidden, the video fills the width of the browser, and the breadcrumb (program name → course → current lesson) is rendered as rotated text along each side. Click the toolbar icon to toggle; click again or press **Esc** to restore the original page.
 
 Works on Skool lessons (Loom embeds), YouTube, Vimeo, and Wistia, with a fallback to the largest iframe on the page.
@@ -9,11 +11,15 @@ Works on Skool lessons (Loom embeds), YouTube, Vimeo, and Wistia, with a fallbac
 ### 1. Clone the repo
 
 ```sh
-git clone <REPO_URL> zoom-skool-video-extension
+git clone https://github.com/jasonnoble/zoom-skool-video-extension zoom-skool-video-extension
+cd zoom-skool-video-extension
+```
+OR
+```sh
+git clone git@github.com:jasonnoble/zoom-skool-video-extension.git zoom-skool-video-extension
 cd zoom-skool-video-extension
 ```
 
-> Replace `<REPO_URL>` with the URL of the GitHub repo you're cloning from.
 
 ### 2. Load it into Chrome
 
